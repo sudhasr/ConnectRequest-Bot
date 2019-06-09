@@ -47,7 +47,7 @@ driver.get("https://www.linkedin.com/search/results/people/?facetCurrentCompany=
 connect_button1 = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div[5]/div[6]/div[3]/div/div[2]/div/div[2]/div/div/div/div/ul/li[1]/div/div/div[3]/div/button')));
 connect_button1.click();
 
-
+#//*[@id="ember4967"]/button
 #driver.implicitly_wait(10)
 #driver.switch_to_active_element('modal-content-wrapper')
 
